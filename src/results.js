@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import SearchBox from './searchBox';
-import './App.css';
 
-class App extends Component {
+class Results extends Component {
   render() {
     return (
       <div className="App">
@@ -12,11 +9,11 @@ class App extends Component {
           <h1 className="App-title">WhoAmI GitHub Version</h1>
         </header>
         <p className="App-intro">
-            <SearchBox />
+
         </p>
       </div>
     );
   }
 }
 
-export default App;
+export default Results;
