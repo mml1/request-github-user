@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from '../logo.svg';
 import SearchBox from './searchBox';
+import Results from './results';
+
 import '../style/App.css';
 
 class Main extends Component {
@@ -11,9 +13,9 @@ class Main extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">WhoAmI GitHub Version</h1>
         </header>
-        <p className="App-intro">
+        <div className="App-intro">
             <SearchBox />
-        </p>
+        </div>
       </div>
     );
   }
