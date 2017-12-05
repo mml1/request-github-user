@@ -16,6 +16,9 @@ class Main extends Component {
         <div className="App-intro">
             <SearchBox />
         </div>
+        <div className="results">
+            <Results />
+        </div>
       </div>
     );
   }

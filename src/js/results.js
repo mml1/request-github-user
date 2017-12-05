@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-
+import SingleRecord from './singleRecord';
 class Results extends Component {
   render() {
     return (
-      <div className="App">
-        
-      </div>
+        <ul>
+            <SingleRecord />
+        </ul>
     );
   }
 }

@@ -22,14 +22,14 @@ describe( '< Main / >', () => {
 	});
 
 	it('main contains searchBox', () => {
-        const wrapper = shallow(<Main />)
-        const searchField = <SearchBox />
-        expect(wrapper).toContainReact(searchField)
+        const wrapper = shallow(<Main />);
+        const searchField = <SearchBox />;
+        expect(wrapper).toContainReact(searchField);
 
 	});
     it('main contains results component', () => {
-        const wrapper = shallow(<Main />)
-        const results = <Results />
-        expect(wrapper).toContainReact(searchField)
+        const wrapper = shallow(<Main />);
+        const results = <Results />;
+        expect(wrapper).toContainReact(results);
 	});
 });
