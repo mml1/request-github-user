@@ -8,15 +8,14 @@ import '../style/App.css';
 class Main extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">WhoAmI GitHub Version</h1>
+      <div className="main">
+        <header className="main-header">
+          <h1 className="main-title">WhoAmI GitHub Version</h1>
         </header>
-        <div className="App-intro">
+        <div className="main-search">
             <SearchBox />
         </div>
-        <div className="results">
+        <div className="main-results">
             <Results />
         </div>
       </div>
