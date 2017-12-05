@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 import ReactTestUtils from 'react-dom/test-utils';
 
 // Enzyme related
-import { mount } from 'enzyme';
 import { shallow } from 'enzyme';
 import 'jest-enzyme';
 
