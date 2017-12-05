@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Button from './button';
+import Button from './js/button';
 
 class SearchBox extends Component {
   render() {
