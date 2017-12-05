@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from '../js/App';
+import Main from '../js/main';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+  ReactDOM.render(<Main />, div);
+});
+
+it('main contains searchBox', () => {
+
 });
