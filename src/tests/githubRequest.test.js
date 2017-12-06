@@ -11,8 +11,14 @@ import GitHubRequest from '../js/githubRequest';
 
 describe( '< GitHubRequest / >', () => {
 
-    it('results contains GitHubRequest component', () => {
-        const wrapper = shallow(<GitHubRequest />);
-        expect(wrapper).toContainReact("");
+    it('gitHubRequest contains requestUrl', () => {
+        const user = 'mml1'
+        const requestUrl = 'https://api.github.com/users/${user}'
+        const wrapper = shallow(<GitHubRequest />);        expect(wrapper.contains(requestUrl)).toBe(true)
 	});
+
+    // it('GitHubRequest contains json', () => {
+    //     // const user = 'mml1'
+    //     // const wrapper = shallow(<GitHubRequest />);        expect(wrapper).toBe(true)
+	// });
 });
