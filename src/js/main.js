@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from '../logo.svg';
 import SearchBox from './searchBox';
 import Results from './results';
+import GitHubRequest from '../js/githubRequest';
+
 
 import '../style/App.css';
 
@@ -16,7 +18,7 @@ class Main extends Component {
             <SearchBox />
         </div>
         <div className="main-results">
-            <Results />
+            <GitHubRequest user ='mml1' />
         </div>
       </div>
     );
